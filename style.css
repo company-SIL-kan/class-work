@@ -7,6 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    font-family: 'Poppins';
 }
 .landpage{
     background-image: url('./images/landpage.jpg');
@@ -23,4 +24,42 @@ body{
 header{
     display: flex;
     justify-content: space-between ;
+    align-items: center;
+    padding-inline: 1em;
+}
+.logo h1{
+    color: white;
+    text-transform: capitalize;
+}
+nav ul {
+    display: flex;
+    gap: 2.5em;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+.nav-icons{
+    display: flex;
+    border-right: 1px solid white;
+    padding-right: 3em;
+}
+.nav-icons-cont{
+    display: flex;
+    gap: 2em;
+    padding-inline: 1em;
+}
+.nav-icons svg{
+    width: 30px;
+    fill: white;
+    gap: 1em;
+}
+.nav-icons-cont a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
 }
