@@ -345,3 +345,42 @@ nav ul li a{
 .overlay-content-link svg{
     width: 40px;
 }
+.services-section{
+    margin-top:8em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.services-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding-inline: 3em;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1em;
+    flex: 1;
+    gap: 1em;
+}
+.service-info{
+    background: rgb(220, 217, 217);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    border-radius: 30px;
+    gap: 1em;
+}
+.service-info-head{
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.service-info-subtitle{
+    font-size: .8em;
+    color: rgb(156, 152, 152);
+}
