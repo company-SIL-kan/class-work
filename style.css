@@ -8,24 +8,45 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins';
+    overflow-x: hidden;
 }
 .landpage{
-    background-image: url('./images/landpage.jpg');
     height: 100%;
     width:100%;
-    background-position:center ;
-    background-size: contain;
+    position: relative;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .land-content{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 header{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    padding-inline: 1em;
+    padding-inline: 3em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    transition: background 0.5s ease-in-out;
 }
 .logo h1{
     color: white;
@@ -47,19 +68,85 @@ nav ul li a{
     display: flex;
     border-right: 1px solid white;
     padding-right: 3em;
+    gap: 2em;
 }
 .nav-icons-cont{
     display: flex;
     gap: 2em;
     padding-inline: 1em;
+    display: flex;
 }
 .nav-icons svg{
     width: 30px;
     fill: white;
-    gap: 1em;
+
 }
 .nav-icons-cont a{
     color: white;
     text-decoration: none;
     font-size: 1.1em;
+}
+.max-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.land-content-main{
+    /* border: 1px solid black; */
+    /* margin-top: 400px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.land-content-main h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: rgb(236, 232, 223);
+    font-weight: 500;
+    text-align: center;
+}
+.land-content-main p{
+    font-size: 1.1em;
+    color: rgb(236, 232, 223);
+    text-transform: capitalize;
+}
+.land-content-main a{
+    margin-top: 2em;
+    background: rgb(236, 232, 223);
+    color: black;
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 100px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.land-content-svg-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+.land-content-svg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.land-content-svg svg{
+    fill: white;
+    width: 30px;
+}
+.new-sec{
+    width: 100%;
+    height: 100%;
 }
