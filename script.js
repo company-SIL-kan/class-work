@@ -217,3 +217,18 @@ reviews.slice(3, 6).forEach((review) => {
 });
 document.querySelector(".review-top").innerHTML = reviewHtml1;
 document.querySelector(".review-down").innerHTML = reviewHtml2;
+
+
+document.querySelectorAll(".faq-question-container").forEach((faq) => {
+  faq.addEventListener("click", () => {
+    // Close other open FAQs (optional)
+    document
+      .querySelectorAll(".faq-question-container.active")
+      .forEach((openFaq) => {
+        if (openFaq !== faq) openFaq.classList.remove("active");
+      });
+
+    // Toggle current
+    faq.classList.toggle("active");
+  });
+});
