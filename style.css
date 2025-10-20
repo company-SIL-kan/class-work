@@ -43,7 +43,7 @@ header{
     justify-content: space-between ;
     align-items: center;
     padding-inline: 3em;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -224,6 +224,7 @@ nav ul li a{
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    font-weight: 600;
 }
 .shop-svg{
     background: white;
@@ -248,4 +249,99 @@ nav ul li a{
     text-transform: capitalize;
     color: #1c1d20;
     text-decoration: none;
+}
+.recommend-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    background-color: inherit;
+    height: 150vh;
+    gap: 1em;
+}
+.recommend-section h1{
+    text-transform: capitalize;
+}
+.recommended-up{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 1em;
+    height: 60%;
+    /* border: 1px solid red; */
+    padding-inline: 3em;
+}
+.recommended-bottom{
+    height: 40%;
+    width: 100%;
+    max-width: 1300px;
+    width: 100%;
+    padding-inline: 3em;
+
+}
+.recommended-bottom .recommeded-img-container img{
+    object-fit: cover;
+    object-position: center;
+}
+.recommended-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.recommended-right{
+    width: 50%;
+    height: 100%;
+
+}
+
+.recommeded-img-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.recommeded-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-container-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.overlay-content{
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+}
+.over-content-name{
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.overlay-content-link{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: .3em 1.2em;
+    justify-content: space-between;
+    border-radius: 40px;
+    color: #1c1d20;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.overlay-content-link svg{
+    width: 40px;
 }
