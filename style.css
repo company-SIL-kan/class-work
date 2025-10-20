@@ -9,6 +9,8 @@ body{
     height: 100vh;
     font-family: 'Poppins';
     overflow-x: hidden;
+    background-color: whitesmoke;
+    color: #1c1d20;
 }
 .landpage{
     height: 100%;
@@ -41,7 +43,7 @@ header{
     justify-content: space-between ;
     align-items: center;
     padding-inline: 3em;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
@@ -148,12 +150,15 @@ nav ul li a{
 }
 .new-collection{
     width: 100%;
-    height: 100%;
-    padding-top: 4em;
+    /* height: 100%; */
+    /* padding-bottom: .5em; */
+    padding-top: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1em;
+    background-color: whitesmoke;
 }
 .new-collection-subtitle{
     color: rgb(187, 186, 186);
@@ -162,5 +167,85 @@ nav ul li a{
 }
 .new-collection-table{
     display: flex;
+    gap: .5em;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* height: 100%; */
+    max-width: 1300px;
+}
+.new-collection-top,
+.new-collection-down{
+    display: flex;
     gap: 2em;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3em;
+    flex: 1;
+    /* height: 50%; */
+    /* padding-block: 1em; */
+}
+.new-collection-item{
+    width: 400px;
+    /* background-color: red; */
+    /* flex: 1; */
+    align-items: center;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* height: 100%; */
+    text-align: left;
+    position: relative;
+    background: rgb(220, 217, 217);
+}
+.tag{
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    background-color: whitesmoke;
+    padding: .3em 1em;
+    border-radius: 1em;
+}
+
+.item-image{
+    width: 90%;
+    /* height: 150px; */
+    object-fit: contain;
+    /* height: 80%; */
+    height: 200px;
+    margin-top: 1em;
+}
+.name-price-svg{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.shop-svg{
+    background: white;
+    padding: .5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-svg svg{
+    width: 30px;
+}
+.item-name{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.collection-btn{
+    margin-block: 2em;
+    padding: 1em 2.5em;
+    border: 1px solid   #1c1d20;
+    border-radius: 50px;
+    text-transform: capitalize;
+    color: #1c1d20;
+    text-decoration: none;
 }
