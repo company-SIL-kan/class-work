@@ -384,3 +384,120 @@ nav ul li a{
     font-size: .8em;
     color: rgb(156, 152, 152);
 }
+.review-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5em;
+    /* height: 100vh; */
+}
+.review-section h1{
+    text-transform: capitalize;
+}
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    max-width: 1300px;
+    padding-inline: 3em;
+    height: 90%;
+    /* border: 1px solid red; */
+}
+.review-top,.review-down{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 2em; */
+    height: 50%;
+    /* border: 1px solid blue; */
+}
+
+.review-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: white;
+    padding: 1em;
+    /* height: 100%; */
+    /* border: 1px solid green; */
+    /* margin-top: 3em; */
+}
+
+.customer-info-rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10%;
+}
+.customer-info{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.customer-profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+ 
+}
+.customer-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.customer-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.customer-title{
+    text-transform: capitalize;
+    color: rgb(187, 186, 186);
+}
+.rate{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.star img{
+    width: 30px;
+}
+.rate-number{
+    color: gold;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.review-image-container{
+    background-color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+.review-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.comments-title-sub{
+    height: 10%;
+}
+.customer-comment-title{
+    font-size: 1.2em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.customer-subtitle{
+    font-size: .8em;
+    color: rgb(156, 152, 152);
+    text-transform: capitalize;
+}
