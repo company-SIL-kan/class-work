@@ -96,12 +96,12 @@ const reviews = [
     commentSubtitle:
       "the website was easy to navigate on time and well-packaged",
     rate: 4.3,
-    customerName: "leslie Alexender",
+    customerName: "Jenny Wilson",
     customerTitle: "cfo,gillite",
   },
   {
     profilePicture:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-501272-1222271.jpg&fm=jpg",
+      "https://th.bing.com/th/id/OIP.UidYXknATm9TVaVDAEDm6AHaE8?w=208&h=139&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3",
     itemImage: "./images/sofa (2).png",
     commentTitle: "Smooth shopping experience",
     commentSubtitle:
@@ -112,46 +112,46 @@ const reviews = [
   },
   {
     profilePicture:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-501272-1222271.jpg&fm=jpg",
+      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
     itemImage: "./images/sofa (3).png",
     commentTitle: "Smooth shopping experience",
     commentSubtitle:
       "the website was easy to navigate on time and well-packaged",
     rate: 4.3,
-    customerName: "leslie Alexender",
+    customerName: "Esther Howard",
     customerTitle: "cfo,gillite",
   },
   {
     profilePicture:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-501272-1222271.jpg&fm=jpg",
-    itemImage: "./images/sofa (1).png",
+      "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg",
+    itemImage: "./images/sofa (4).png",
     commentTitle: "Smooth shopping experience",
     commentSubtitle:
       "the website was easy to navigate on time and well-packaged",
     rate: 4.3,
-    customerName: "leslie Alexender",
+    customerName: "Robert Fox",
     customerTitle: "cfo,gillite",
   },
   {
     profilePicture:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-501272-1222271.jpg&fm=jpg",
-    itemImage: "./images/sofa (1).png",
+      "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+    itemImage: "./images/sofa (5).png",
     commentTitle: "Smooth shopping experience",
     commentSubtitle:
       "the website was easy to navigate on time and well-packaged",
     rate: 4.3,
-    customerName: "leslie Alexender",
+    customerName: "Kristin Watson",
     customerTitle: "cfo,gillite",
   },
   {
     profilePicture:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-501272-1222271.jpg&fm=jpg",
-    itemImage: "./images/sofa (1).png",
+      "https://images.pexels.com/photos/1197132/pexels-photo-1197132.jpeg",
+    itemImage: "./images/sofa (6).png",
     commentTitle: "Smooth shopping experience",
     commentSubtitle:
       "the website was easy to navigate on time and well-packaged",
     rate: 4.3,
-    customerName: "leslie Alexender",
+    customerName: "Cameron Williamson",
     customerTitle: "cfo,gillite",
   },
 ];
